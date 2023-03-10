@@ -18,12 +18,9 @@ user = [
 'tanggal_lahir': '1900-12-15'
 }
 ]
-def tambah_user(nama, nik, jenis_kelamin, tanggal_lahir):
-user_baru = {
-'nama': nama,
-'nik': nik,
-'jenis_kelamin': jenis_kelamin,
-'tanggal_lahir': tanggal_lahir
-}
-user.append(user_baru)
-return "Data user baru berhasil ditambahkan"
+
+def cari_user(nama):
+    for data in user:
+        if cari_user'nama'] == nama:
+        return cari_user
+        return "Data tidak ada"
